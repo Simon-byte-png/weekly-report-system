@@ -16,3 +16,6 @@ tmp/
 .env.*
 .DS_Store
 *.log
+
+# GitHub workflow kept local until gh token has workflow scope
+.github/workflows/
