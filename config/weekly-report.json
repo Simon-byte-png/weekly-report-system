@@ -1,0 +1,261 @@
+{
+  "sources": {
+    "creators": [
+      {
+        "name": "歸藏",
+        "source_id": "guizang",
+        "region": "cn",
+        "entry_type": "sitemap",
+        "entrypoint": "https://www.guizang.ai/sitemap.xml",
+        "priority": 100,
+        "enabled": true,
+        "fallback": [
+          "https://www.guizang.ai/articles"
+        ]
+      },
+      {
+        "name": "卡兹克",
+        "source_id": "khazix",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://nitter.net/Khazix0918/rss",
+        "priority": 98,
+        "enabled": true,
+        "fallback": [
+          "https://nitter.poast.org/Khazix0918/rss",
+          "https://nitter.privacydev.net/Khazix0918/rss"
+        ]
+      },
+      {
+        "name": "花叔",
+        "source_id": "huashu",
+        "region": "cn",
+        "entry_type": "sitemap",
+        "entrypoint": "https://www.huasheng.ai/sitemap.xml",
+        "priority": 96,
+        "enabled": true,
+        "fallback": [
+          "https://www.huasheng.ai/insights/"
+        ]
+      },
+      {
+        "name": "赛博禅心",
+        "source_id": "cyber-zen-pending",
+        "region": "cn",
+        "entry_type": "manual_source",
+        "entrypoint": "manual://cyber-zen",
+        "priority": 95,
+        "enabled": true,
+        "pending": true,
+        "manual_items": []
+      },
+      {
+        "name": "晚点 LatePost",
+        "source_id": "latepost",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://podcast.latepost.com/rss.xml",
+        "priority": 85,
+        "enabled": true
+      },
+      {
+        "name": "36Kr AI观察",
+        "source_id": "36kr",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.36kr.com/feed",
+        "priority": 80,
+        "enabled": true
+      },
+      {
+        "name": "InfoQ China",
+        "source_id": "infoq-cn",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.infoq.cn/feed.xml",
+        "priority": 78,
+        "enabled": true
+      },
+      {
+        "name": "IT之家",
+        "source_id": "ithome",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.ithome.com/rss/",
+        "priority": 72,
+        "enabled": true
+      },
+      {
+        "name": "Qwen Team Blog",
+        "source_id": "qwen-team",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://qwenlm.github.io/blog/index.xml",
+        "priority": 86,
+        "enabled": true
+      },
+      {
+        "name": "DeepSeek Team",
+        "source_id": "deepseek-team",
+        "region": "cn",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom",
+        "priority": 84,
+        "enabled": true
+      },
+
+      {
+        "name": "Simon Willison",
+        "source_id": "simon-willison",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://simonwillison.net/atom/everything/",
+        "priority": 92,
+        "enabled": true
+      },
+      {
+        "name": "Latent Space",
+        "source_id": "latent-space",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.latent.space/feed",
+        "priority": 90,
+        "enabled": true
+      },
+      {
+        "name": "Interconnects",
+        "source_id": "interconnects",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.interconnects.ai/feed",
+        "priority": 88,
+        "enabled": true
+      },
+      {
+        "name": "Import AI",
+        "source_id": "import-ai",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://importai.substack.com/feed",
+        "priority": 88,
+        "enabled": true
+      },
+      {
+        "name": "Ben's Bites",
+        "source_id": "bens-bites",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.bensbites.com/feed",
+        "priority": 85,
+        "enabled": true
+      },
+      {
+        "name": "Sebastian Raschka",
+        "source_id": "raschka",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://magazine.sebastianraschka.com/feed",
+        "priority": 86,
+        "enabled": true
+      },
+      {
+        "name": "The Sequence",
+        "source_id": "the-sequence",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://thesequence.substack.com/feed",
+        "priority": 83,
+        "enabled": true
+      },
+      {
+        "name": "AI Snake Oil",
+        "source_id": "ai-snake-oil",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.aisnakeoil.com/feed",
+        "priority": 82,
+        "enabled": true
+      },
+      {
+        "name": "Understanding AI",
+        "source_id": "understanding-ai",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://www.understandingai.org/feed",
+        "priority": 82,
+        "enabled": true
+      },
+      {
+        "name": "Semianalysis",
+        "source_id": "semianalysis",
+        "region": "us",
+        "entry_type": "rss_atom",
+        "entrypoint": "https://semianalysis.com/feed/",
+        "priority": 86,
+        "enabled": true
+      }
+    ],
+    "official": [
+      {
+        "name": "OpenAI News",
+        "entrypoint": "https://openai.com/news/rss.xml",
+        "region": "us",
+        "priority": 50,
+        "enabled": true
+      },
+      {
+        "name": "Google Blog",
+        "entrypoint": "https://blog.google/rss/",
+        "region": "us",
+        "priority": 48,
+        "enabled": true
+      },
+      {
+        "name": "Anthropic News",
+        "entry_type": "manual_source",
+        "entrypoint": "manual://anthropic",
+        "region": "us",
+        "priority": 48,
+        "enabled": true,
+        "manual_items": [
+          {
+            "title": "Claude Opus 4.7",
+            "date": "2026-04-16T09:00:00+08:00",
+            "link": "https://www.anthropic.com/news/claude-opus-4-7",
+            "summary": "Anthropic 发布 Claude Opus 4.7。"
+          }
+        ]
+      }
+    ],
+    "trend": [
+      {
+        "name": "TechCrunch AI",
+        "entrypoint": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "region": "us",
+        "priority": 40,
+        "enabled": true
+      }
+    ]
+  },
+  "manual_items": [],
+  "render": {
+    "template": "ai_product_research_club_v1",
+    "title_prefix": "AI产品研习社周报",
+    "language": "zh-CN",
+    "show_source": false,
+    "editorial_mode": "viewpoint",
+    "max_headline_chars": 32,
+    "max_body_chars": 180,
+    "prevent_verbatim_chars": 30
+  },
+  "rules": {
+    "require_official_for_main": false,
+    "main_items": 6,
+    "quick_items": 8,
+    "main_from_creators_min_ratio": 0.6,
+    "max_items_per_topic": 1,
+    "max_items_per_domain": 2,
+    "source_health_threshold": 0.3,
+    "require_region_balance": true
+  }
+}
